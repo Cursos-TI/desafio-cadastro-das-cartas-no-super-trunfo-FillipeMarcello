@@ -2,7 +2,7 @@
 
 int main() {
     /// carta 1:
-    char estado[2];  // A letra do estado
+    char estado[2]; 
     char codigodacarta[10];
     char nomedacidade[20];
     int populacao;
@@ -11,7 +11,7 @@ int main() {
     int numerodepontosturisticos;
 
     /// carta 2:
-    char estado2[2];  // A letra do estado
+    char estado2[2]; 
     char codigodacarta2[10];
     char nomedacidade2[20];
     int populacao2;
