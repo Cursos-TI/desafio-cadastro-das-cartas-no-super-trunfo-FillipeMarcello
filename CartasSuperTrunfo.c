@@ -26,13 +26,13 @@ int main() {
 
     /// Cadastro carta 1:
     printf("Digite a letra que representa o estado 1:\n");
-    scanf(" %c", estado);  // Corrigido para capturar um único caractere
+    scanf(" %c", estado); 
 
     printf("Digite o código da sua carta:\n");
     scanf("%s", codigodacarta);
 
     printf("Digite o nome da sua cidade:\n");
-    scanf(" %[^\n]%*c", nomedacidade);  // Corrigido para permitir a captura de nomes com espaços
+    scanf(" %[^\n]%*c", nomedacidade); 
 
     printf("Digite o número da população da sua cidade:\n");
     scanf("%d", &populacao);  
@@ -50,13 +50,13 @@ int main() {
 
     /// Cadastro carta 2:
     printf("Digite a letra que representa o estado 2:\n");
-    scanf(" %c", estado2);  // Corrigido para capturar um único caractere
+    scanf(" %c", estado2); 
 
     printf("Digite o código da sua carta:\n");
     scanf("%s", codigodacarta2);
 
     printf("Digite o nome da sua cidade:\n");
-    scanf(" %[^\n]%*c", nomedacidade2);  // Corrigido para permitir a captura de nomes com espaços
+    scanf(" %[^\n]%*c", nomedacidade2); 
 
     printf("Digite o número da população da sua cidade:\n");
     scanf("%d", &populacao2);  
